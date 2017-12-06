@@ -1,0 +1,71 @@
+@charset "utf-8";
+textarea.invalid {
+	border: 1px solid #9d261d;
+	background: #f2dede;
+}
+
+.feedback-error {
+	color: red;
+	font-size: 12px;
+	display: none;
+}
+
+.item-page {
+	display: none;
+}
+
+.control-label {
+    margin: 0 0 12px;
+}
+
+.control-label label {
+    font-size: 15px;
+    font-family: sans-serif;
+}
+
+.control-group {
+    padding: 10px 0;
+}
+
+.userdata input,
+.userdata textarea {
+    width: 300px;
+    padding: 6px 12px;
+    height: 39px;
+    color: #555555;
+    background-color: #fafafa;
+    border: 1px solid #ebebeb;
+}
+
+.userdata textarea {
+    height: 100px;
+}
+
+.userdata .btn {
+    background: #d80510;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+}
+
+.userdata .btn:hover {
+    background: #a70015;
+}
+
+.userdata {
+    padding: 20px;
+}
+
+.success {
+    padding: 20px;
+    font-size: 15px;
+    font-family: sans-serif;
+}
+
+@media (max-width: 768px) {
+    .userdata input,
+    .userdata textarea {
+        width: 100%;
+    }
+}
